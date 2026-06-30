@@ -1,1 +1,12 @@
 .idea/*
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+db/regulations.db
+dashboard.html
