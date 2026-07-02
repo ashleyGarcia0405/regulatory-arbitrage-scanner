@@ -48,7 +48,7 @@ def _matches_keywords(text: str, keywords: list[str]) -> bool:
     return any(kw in text_lower for kw in keywords)
 
 
-def fetch() -> list[dict]:
+def fetch(days_back: int = 7) -> list[dict]:
     results = []
     seen_urls = set()
 
