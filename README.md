@@ -74,8 +74,8 @@ PERPLEXITY_API_KEY=pplx-...        # optional but recommended — enables real w
                                    # without it, search calls return [STUB] strings
                                    # and the analysis still runs
 
-SUPABASE_URL=https://...           # future — leave blank for now (SQLite used until set)
-SUPABASE_SERVICE_KEY=...           # future — leave blank for now
+SUPABASE_URL=https://...           # (SQLite used until set)
+SUPABASE_SERVICE_KEY=...           
 ```
 
 ---
